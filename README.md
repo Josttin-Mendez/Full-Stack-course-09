@@ -5,7 +5,7 @@
 <h2>Task 1: Figma Link</h2>
 <a href="https://www.figma.com/file/ZTZImpFpCFX9p1xrn64Jc5/Untitled?type=design&node-id=0%3A1&mode=design&t=aDws3MCSo4E8Ggts-1" target="__blank">Figma Link</a>
 <br>
-<a href="https://0m4rp.github.io/taller-9-full-stack/" target="_blank">Page Link</a>
+<a href="https://full-stack-curse.vercel.app/">Page Link</a>
 <h2>Task 2: HTML</h2>
 <div style="text-align: center;">
   <img src="./Public/images/html-page.png" alt="html">
