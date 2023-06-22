@@ -1,0 +1,14 @@
+/*Styles-punto9*/
+
+table {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+table tr th {
+    color: red;
+}

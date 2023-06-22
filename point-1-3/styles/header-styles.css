@@ -1,0 +1,44 @@
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.header_navigation {
+    display: flex;
+    align-items: center;
+
+}
+
+.header_navigation nav ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+.header_navigation nav ul li a {
+    text-decoration: none;
+    color: #454868;
+}
+
+.header_settings {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.header_settings div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Jost';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header_settings button {
+    background-color:  transparent;
+    border: 1px solid #45486854;
+}

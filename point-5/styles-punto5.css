@@ -1,0 +1,32 @@
+/*Styles-punto5*/
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#verde {
+    color: green;
+}
+
+#rojo {
+    color: red;
+}
+
+#grande {
+    font-size: 50px;
+    color: black;
+}
+
+#marcado {
+    text-decoration: underline overline;
+}
+
+b {
+    color: blue;
+}
+
+b u {
+    color: red;
+}

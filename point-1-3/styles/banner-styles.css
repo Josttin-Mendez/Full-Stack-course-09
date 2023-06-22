@@ -1,0 +1,42 @@
+/*Banner*/
+
+#banner {
+    display: flex;
+    margin: 25px 100px;
+    padding: 90px 80px;
+    background: linear-gradient(313.18deg, #EE9AE5 3.28%, #5961F9 97.04%);
+    border-radius: 48px 48px 300px 48px;
+}
+
+h1 {
+    font-family: 'Jost';
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 70px;
+    letter-spacing: -0.64px;
+}
+
+#banner p {
+    color: #fff;
+    margin: 25px 0px;
+}
+
+.banner-white {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 35px;
+}
+
+.button-orange {
+    background-color: #FD909E;
+    color: #fff;
+    border: none;
+}
+
+.button-white {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+}

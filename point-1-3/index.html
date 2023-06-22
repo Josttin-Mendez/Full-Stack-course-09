@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto 1</title>
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="./styles/global-styles.css">
+    <link rel="stylesheet" href="./styles/header-styles.css">
+    <link rel="stylesheet" href="./styles/banner-styles.css">
+    <link rel="stylesheet" href="./styles/section-1-styles.css">
+    <link rel="stylesheet" href="./styles/section-2-styles.css">
+    <link rel="stylesheet" href="./styles/footer-styles.css">
+</head>
+<body>
+    <header>
+        <!-- Encabezado de navegación -->
+        <div class="header_navigation">
+            <img src="./public/images/header-logo.png" alt="main-logo"> <!-- Logotipo principal -->
+            <nav>
+                <ul>
+                    <li><a href="#banner">Cursos</a></li>
+                    <li><a href="#section-1">Participantes</a></li>
+                    <li><a href="#section-2">Certificados</a></li>
+                    <li><a href="#footer">Ayuda</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Configuración del encabezado -->
+        <div class="header_settings">
+            <div>
+                <img src="./public/images/header-word.png" alt="world"> <!-- Imagen del mundo -->
+                <span>Español</span> <!-- Idioma actual -->
+            </div>
+            <button>Ingresar</button> <!-- Botón para iniciar sesión -->
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección de banner -->
+        <section id="banner">
+            <div>
+                <div>
+                    <h1>Aprovecha la era digital, toma clases en línea</h1> <!-- Título principal -->
+                    <p>Toma los cursos más importantes de tecnología con clases en línea, donde podrás tener acceso a contenido actualizado desde la comodidad de tu casa y a tu ritmo</p> <!-- Descripción del banner -->
+                </div>
+                <div>
+                    <button class="button-orange">Saber más</button> <!-- Botón de "Saber más" (naranja) -->
+                    <button class="button-white">Planes</button> <!-- Botón de "Planes" (blanco) -->
+                </div>
+            </div>
+            <img 
+                src="./public/images/banner-online.png" 
+                alt="online-education"
+                width="550px"
+                height="350px"
+            > <!-- Imagen relacionada con la educación en línea -->
+        </section>
+
+        <!-- Sección 1 -->
+        <section id="section-1">
+            <div class="section-1_info">
+                <h2>Por qué elegirnos a nosotros</h2> <!-- Título de la sección -->
+                <p>Somos una universidad en constante actualización y nos gusta el cambio, te enseñamos tecnologías contemporáneas</p> <!-- Descripción de la sección -->
+            </div>
+            <div class="section-1_cards">
+                <img 
+                src="./public/images/section1-education.png" 
+                alt="education"
+                width="120px"
+                height="120px"
+                > <!-- Imagen relacionada con la educación -->
+                <h3>Virutalidad y educación</h3> <!-- Título de la tarjeta -->
+            </div>
+            <div class="section-1_cards section-1_card-down">
+                <h3>Alcance de objetos</h3> <!-- Título de la tarjeta -->
+                <img 
+                src="./public/images/section1-goals.png" 
+                alt="goals"
+                width="120px"
+                height="120px"
+                >
+                
+            </div>
+            <div class="section-1_cards">
+                <img 
+                src="./public/images/section1-teach.png" 
+                alt="teach"
+                width="120px"
+                height="120px"
+                >
+                <h3>Clases inclusivas</h3> <!-- Título de la tarjeta -->
+            </div>
+        </section>
+
+        <!-- Sección 2 -->
+        <section id="section-2">
+        <div class="section-2_info">
+            <img 
+                src="./public/images/section2-tools.png" 
+                alt="tools"
+                width="500px"
+                height="350px"
+                > <!-- Imagen relacionada con las herramientas -->
+            <div>
+                <h2>Brindamos herramientas para que tu aprendizaje</h2> <!-- Título de la sección -->
+                <h2 class="section-2_sub-pink">sea efectivo</h2> <!-- Subtítulo de la sección (rosa) -->
+                <p>
+                    Las herramientas digitales son nuestras 
+                    aliadas aprovechamos cada una de estas para 
+                    brindarte la mejor experiencia en línea
+                </p> <!-- Descripción de la sección -->
+                <button class="button-orange">Saber más</button> <!-- Botón de "Saber más" (naranja) -->
+            </div>
+        </div>
+        <div class="section-2_info">
+            <div>
+                <h2>Educación pensando en</h2> <!-- Título de la sección -->
+                <h2 class="section-2_sub-pink">Objetivos alcanzados</h2> <!-- Subtítulo de la sección (rosa) -->
+                <p>
+                    Es importante para nosotros que las 
+                    metas de cada uno de nuestros estudiantes 
+                    sea alcanzada a través nuestros cursos
+                </p> <!-- Descripción de la sección -->
+                <button class="button-orange">Saber más</button> <!-- Botón de "Saber más" (naranja) -->
+            </div>
+            <img 
+            src="./public/images/section2-goals.png" 
+            alt="goals"
+            width="500px"
+            height="350px"
+            > <!-- Imagen relacionada con las metas -->
+        </div>
+        </section>
+        
+        <footer id="footer">
+        <div class="footer_info">
+            <img 
+                src="./public/images/footer-logo.png" 
+                alt="footer-logo"
+                width="200px"
+                height="175px"
+            > <!-- Logotipo del pie de página -->
+            <div>
+                <p>Únete a nuestra comunidad para recibir información
+                    actualizada de los cursos y conferencia que ofrecemos
+                </p> <!-- Descripción del pie de página -->
+                <form method="post">
+                    <input 
+                        type="email"
+                        id="email"
+                        name="user_name"
+                        placeholder="correo electronico"
+                    > <!-- Campo de entrada de correo electrónico -->
+                    <button class="button-pink">Subscribirse</button> <!-- Botón de "Subscribirse" (rosa) -->
+                </form>
+            </div>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Plataforma</th>
+                    <th>Preguntas frecuentes</th>
+                    <th>Contactenos</th>
+                </tr>
+                <tr>
+                    <td><a href="">Moodle</a></td> <!-- Enlace a la plataforma Moodle -->
+                    <td><a href="">Cómo obtener mis certificados</a></td> <!-- Enlace a las preguntas frecuentes sobre los certificados -->
+                    <td>+(57) 680 80 80</td> <!-- Número de contacto -->
+                </tr>
+                <tr>
+                    <td><a href="">Planestic</a></td> <!-- Enlace a la plataforma Planestic -->
+                    <td><a href="">Que costo tiene inscribirse?</a></td> <!-- Enlace a las preguntas frecuentes sobre los costos de inscripción -->
+                    <td><a href="">universidaddistrital@edu.co</a></td> <!-- Correo de contacto -->
+                </tr>
+                <tr>
+                    <td><a href="">Atenea</a></td> <!-- Enlace a la plataforma Atenea -->
+                    <td><a href="">Medios de pago</a></td> <!-- Enlace a las preguntas frecuentes sobre los medios de pago -->
+                    <td><a href="">cll 40 #7-19 Bogotá</a></td> <!-- Dirección de contacto -->
+                </tr>
+                <tr>
+                    <td><a href="">Administración</a></td> <!-- Enlace a la plataforma de administración -->
+                    <td><a href="">Que convenios existen?</a></td> <!-- Enlace a las preguntas frecuentes sobre los convenios -->
+                </tr>
+            </table>
+        </div>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/*Styles-punto7*/
+
+div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:rgb(191, 160, 255);
+    padding: 20px;
+}
+
+#boton {
+    margin-right: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.info {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}

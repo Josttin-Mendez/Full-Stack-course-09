@@ -1,0 +1,15 @@
+/*Styles-punto4*/
+
+h1 {
+    font-family: 'Jost';
+    font-size: 40px;
+    text-align: center;
+}
+
+#azul {
+    color: blue;
+}
+
+#rojo {
+    color: red;
+}

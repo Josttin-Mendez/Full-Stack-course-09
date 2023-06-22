@@ -1,0 +1,53 @@
+/*Footer*/
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 120px;
+    padding: 20px 100px;
+    background-color: #010851;
+    color: #fff;
+}
+
+.footer_info {
+    width: 35%;
+}
+
+input {
+    width: 220px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #45486899;
+    margin-right: -15px;
+}
+
+.button-pink {
+    background-color: #ED80fd;
+    color: #fff;
+    border: none;
+}
+
+table {
+    font-family: 'Jost';
+    text-align: left;
+
+}
+
+tr {
+    height: 40px;
+}
+
+th {
+    height: 80px;
+}
+
+td {
+    padding-right: 50px;
+}
+
+td a {
+    color: #fff;
+}
